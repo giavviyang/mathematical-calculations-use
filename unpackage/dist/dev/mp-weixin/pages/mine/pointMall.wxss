@@ -1,0 +1,262 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.exchange-modal.data-v-8184bc7e {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exchange-modal .content.data-v-8184bc7e {
+  width: 543rpx;
+  height: 280rpx;
+  background-color: #ffffff;
+  border-radius: 30rpx;
+  padding-top: 40rpx;
+  box-sizing: border-box;
+}
+.exchange-modal .content .title.data-v-8184bc7e {
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exchange-modal .content .title image.data-v-8184bc7e {
+  width: 29rpx;
+  height: 29rpx;
+  margin-left: 10rpx;
+}
+.exchange-modal .content .desc.data-v-8184bc7e {
+  font-size: 28rpx;
+  color: #666666;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.exchange-modal .content .actions.data-v-8184bc7e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30rpx;
+}
+.exchange-modal .content .actions .action-item.data-v-8184bc7e {
+  width: 216rpx;
+  height: 68rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 34rpx;
+  border: 1rpx solid #FAA716;
+  color: #FAA716;
+  font-size: 28rpx;
+}
+.exchange-modal .content .actions .action-item.data-v-8184bc7e:last-child {
+  color: #ffffff;
+  background-color: #FAA716;
+  margin-left: 30rpx;
+}
+.point-mall.data-v-8184bc7e {
+  box-sizing: border-box;
+  background-color: #ECF8FF;
+  min-height: 100vh;
+}
+.point-mall .list-box.data-v-8184bc7e {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.point-mall .list-box .list.data-v-8184bc7e {
+  background-color: #ffffff;
+  border-radius: 40rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 25rpx 25rpx;
+}
+.point-mall .list-box .list .list-item.data-v-8184bc7e {
+  width: 309rpx;
+  height: 455rpx;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.11);
+  box-sizing: border-box;
+  padding: 36rpx 20rpx 0;
+  border-radius: 30rpx;
+  margin-top: 25rpx;
+  position: relative;
+}
+.point-mall .list-box .list .list-item.data-v-8184bc7e:nth-child(-n + 2) {
+  margin-top: 0;
+}
+.point-mall .list-box .list .list-item .purchased.data-v-8184bc7e {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 102rpx;
+  height: 38rpx;
+  color: #ffffff;
+  font-size: 24rpx;
+  text-align: center;
+  background: linear-gradient(180deg, #FFA23F 0%, #FF653E 100%);
+  border-bottom: 2px solid #F34C35;
+  border-right: 2px solid #F34C35;
+  border-radius: 30rpx 19rpx 19rpx 0;
+}
+.point-mall .list-box .list .list-item .img.data-v-8184bc7e {
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.point-mall .list-box .list .list-item .img image.data-v-8184bc7e {
+  width: 100%;
+  height: 100%;
+}
+.point-mall .list-box .list .list-item .name.data-v-8184bc7e {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.point-mall .list-box .list .list-item .desc.data-v-8184bc7e {
+  font-size: 24rpx;
+  line-height: 30rpx;
+  height: 60rpx;
+  color: #999999;
+  margin-top: 5rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.point-mall .list-box .list .list-item .points.data-v-8184bc7e {
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.point-mall .list-box .list .list-item .points image.data-v-8184bc7e {
+  width: 36rpx;
+  height: 36rpx;
+}
+.point-mall .list-box .list .list-item .points .num.data-v-8184bc7e {
+  font-size: 32rpx;
+  margin-left: 10rpx;
+}
+.point-mall .top.data-v-8184bc7e {
+  position: relative;
+}
+.point-mall .top .bg.data-v-8184bc7e {
+  width: 100%;
+}
+.point-mall .top .my-point.data-v-8184bc7e {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 30rpx;
+  bottom: 60rpx;
+}
+.point-mall .top .my-point image.data-v-8184bc7e {
+  width: 100rpx;
+}
+.point-mall .top .my-point .info.data-v-8184bc7e {
+  margin-left: 20rpx;
+}
+.point-mall .top .my-point .info .label.data-v-8184bc7e {
+  font-size: 28rpx;
+}
+.point-mall .top .my-point .info .num.data-v-8184bc7e {
+  font-size: 36rpx;
+}
+.header.data-v-8184bc7e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  box-sizing: border-box;
+  width: 100vw;
+  padding-right: 30rpx;
+  padding-left: 30rpx;
+  background-color: rgba(0, 0, 0, 0);
+}
+.header .title.data-v-8184bc7e {
+  padding-right: 55rpx;
+  flex: 1;
+  text-align: center;
+}
+.header image.data-v-8184bc7e {
+  width: 55rpx;
+  height: 55rpx;
+  top: 25px;
+}
+

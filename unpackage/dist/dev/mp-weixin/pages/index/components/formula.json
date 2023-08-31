@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "fraction": "/pages/index/components/fraction"
+  }
+}

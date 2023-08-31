@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "customer-top-bar": "/component/customer-top-bar/index",
+    "rest-modal": "/component/restmodal",
+    "formula": "/pages/wrong/components/formula"
+  }
+}

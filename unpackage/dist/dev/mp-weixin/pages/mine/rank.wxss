@@ -1,0 +1,346 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.rank-container.data-v-1babd782 {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #F5F5F5;
+  padding-bottom: 30rpx;
+}
+.rank-container .list-container.data-v-1babd782 {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  margin-top: -80rpx;
+}
+.rank-container .list-container .list.data-v-1babd782 {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 120rpx 20rpx 0;
+  border-radius: 10rpx;
+}
+.rank-container .list-container .list .list-item.data-v-1babd782 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25rpx 0;
+}
+.rank-container .list-container .list .list-item .sort.data-v-1babd782 {
+  width: 60rpx;
+  height: 62rpx;
+  background-image: url(data:image/png;base64,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);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 28rpx;
+}
+.rank-container .list-container .list .list-item .user-info.data-v-1babd782 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 35rpx;
+}
+.rank-container .list-container .list .list-item .user-info .avatar-container .avatar-content .avatar.data-v-1babd782 {
+  width: 95rpx;
+  height: 95rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.rank-container .list-container .list .list-item .user-info .avatar-container .avatar-content .avatar image.data-v-1babd782 {
+  width: 100%;
+  height: 100%;
+}
+.rank-container .list-container .list .list-item .user-info .info.data-v-1babd782 {
+  margin-left: 20rpx;
+}
+.rank-container .list-container .list .list-item .user-info .info .user-name.data-v-1babd782 {
+  font-size: 30rpx;
+}
+.rank-container .list-container .list .list-item .user-info .info .grade.data-v-1babd782 {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #666666;
+}
+.rank-container .list-container .list .list-item .right-num.data-v-1babd782 {
+  display: flex;
+  align-items: center;
+}
+.rank-container .list-container .list .list-item .right-num .label.data-v-1babd782 {
+  font-size: 24rpx;
+  color: #666666;
+}
+.rank-container .list-container .list .list-item .right-num .num.data-v-1babd782 {
+  font-size: 30rpx;
+  color: #FF0000;
+  margin-left: 10rpx;
+}
+.rank-container .top3.data-v-1babd782 {
+  display: flex;
+  padding: 0 40rpx;
+  margin-top: 53rpx;
+}
+.rank-container .top3 .top-item.data-v-1babd782 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 30rpx;
+  padding: 40rpx 0 30rpx;
+}
+.rank-container .top3 .top-item.data-v-1babd782:nth-child(1), .rank-container .top3 .top-item.data-v-1babd782:nth-child(3) {
+  box-shadow: 0px 4rpx 13rpx 0px rgba(0, 0, 0, 0.1);
+}
+.rank-container .top3 .top-item.first.data-v-1babd782 {
+  box-shadow: 0px 3rpx 15rpx 0px #FFC707;
+  z-index: 10;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.rank-container .top3 .top-item.first .avatar-box .icon.data-v-1babd782 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 127rpx;
+  height: 100rpx;
+  top: -70rpx;
+}
+.rank-container .top3 .top-item .avatar-box.data-v-1babd782 {
+  position: relative;
+}
+.rank-container .top3 .top-item .avatar-box .icon.data-v-1babd782 {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 114rpx;
+  height: 93rpx;
+  top: -55rpx;
+}
+.rank-container .top3 .top-item .avatar-box .avatar.data-v-1babd782 {
+  width: 83rpx;
+  height: 83rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.rank-container .top3 .top-item .avatar-box .avatar image.data-v-1babd782 {
+  width: 100%;
+  height: 100%;
+}
+.rank-container .top3 .top-item .user-name.data-v-1babd782 {
+  font-size: 28rpx;
+  margin-top: 15rpx;
+  padding: 0 15rpx;
+  text-align: center;
+}
+.rank-container .top3 .top-item .grade.data-v-1babd782 {
+  font-size: 20rpx;
+  margin-top: 15rpx;
+}
+.rank-container .top3 .top-item .right-num.data-v-1babd782 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 40rpx;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYwAAABqCAMAAACYjZZTAAAAzFBMVEUAAAD/zET/uwr/0lj/zkX//PP/////////6rD/wR7/xi7/0lX/01b/52v/yDX/yjz/3Wj/zkf/0E7/1Vz/2F//11//2GP/wRr/8Mj/01v/1V3/22b//fn/xSr/xi//67b/3oP/y0D/z03//Or/////223/4Wn//1X/9NH/uAD/12z/8cX/////yDf/1mj/vxf/4Y3/wR//+u7/vRH/8s7/0FP/uQL/6q//88r/77//45X/3oP/zEP/xzL/017/xSv/9d7/56T/56L/2XEon7znAAAAKHRSTlMAxP53v/7ygd/36oeABuDUH7yjYE9INPm/aFkq+e7p2NjKqZR5FREDa5Nc0wAAAqRJREFUeNrt3UdTGzEAhmGxIcU2tukJkF4lMFhkjQ2mpfz//xTJIbNORjs5WfoO73NZWePbOyp7WgNZuxvbW2vIYv19b6dv2hwMxw5ZVYNessdu16GAzob5V//d1KGM7qb5y2bXLVSnF2fHyOLs4mbsFp7vmSWfOi46nV9a5PT9wkXVco2BC8Zzi+xmt4u10exUWy64vbIo4HKxOLrmwX4Vft2zQ5WyqPHnTjUM45p1Ucxl3Kk6X0x0NA3ja4tiZi7omWg7jM4nFuXEjWpgotdh9NOioB/xoOiboAqjmUVJdWhwGF++w7OyKOrm4T61G48Mi6LiobEdYjwKz1OLos5ChC1iaIgx1omhgRhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYQoghhBhCiCGEGEKIIYQYJczHSZVz9VtiZOZdi3ryjBiZ+dYWI2Jk1R5jPBkRI7t0jPNvI2Lk55Mtvo6IUYBPtyBGCT7ZghhF+FQLYpThEy2IUYhPtWhi7ISpe4s8fLpF9CbE2A9zY4s8fLpF9CLE6E+dm55YZOHbWsQYQSdMe4ssfLpF9MEEa2H+xiILn24RPTXBjuOD4Nn4thYxRtThcpuNT7doYmy44NgiA9+0SMSIXrng2mL1fNOiJcZ+7YK7icWq+aZFKkZ0MF38hQvuyvmmRTJG1Kt+F7ubz65OsDrXTYt0jOhw7JBHPRn9J4Y5Gk4dEnK1iDEae4PKISFPixhj2efesNupK6xOffV42csnjY8GQn4B1np/LGD5tIMAAAAASUVORK5CYII=);
+  background-size: 100% 100%;
+  margin-top: 20rpx;
+}
+.rank-container .top3 .top-item .right-num .label.data-v-1babd782 {
+  font-size: 20rpx;
+  margin-right: 20rpx;
+}
+.rank-container .top3 .top-item .right-num .num.data-v-1babd782 {
+  font-size: 28rpx;
+  color: #FF0000;
+}
+.rank-container .tab-container.data-v-1babd782 {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  margin-top: -60rpx;
+  position: relative;
+  z-index: 10;
+}
+.rank-container .tab-container .tab-box.data-v-1babd782 {
+  display: flex;
+  background: #FFFFFF;
+  box-shadow: 0px 4rpx 18rpx 0px rgba(255, 122, 0, 0.43);
+  border-radius: 45rpx;
+  overflow: hidden;
+}
+.rank-container .tab-container .tab-box .tab-item.data-v-1babd782 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 90rpx;
+  font-size: 28rpx;
+  position: relative;
+}
+.rank-container .tab-container .tab-box .tab-item.active.data-v-1babd782 {
+  color: #FF7A00;
+}
+.rank-container .tab-container .tab-box .tab-item.data-v-1babd782::after {
+  content: "";
+  display: block;
+  width: 1rpx;
+  height: 50rpx;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.rank-container .tab-container .tab-box .tab-item.data-v-1babd782:last-child::after {
+  display: none;
+}
+.rank-container .top-section.data-v-1babd782 {
+  height: auto;
+  position: relative;
+}
+.rank-container .top-section .bg.data-v-1babd782 {
+  width: 100%;
+}
+.rank-container .top-section .top-content.data-v-1babd782 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  top: 250rpx;
+}
+.rank-container .top-section .top-content .desc.data-v-1babd782 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 38rpx;
+  text-shadow: 0px 2rpx 0px #F48400;
+  margin-top: 30rpx;
+}
+.rank-container .top-section .top-content .main.data-v-1babd782 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.rank-container .top-section .top-content .main .avatar-container .avatar-content.data-v-1babd782 {
+  position: relative;
+}
+.rank-container .top-section .top-content .main .avatar-container .avatar-content .rank-status.data-v-1babd782 {
+  position: absolute;
+  width: 101rpx;
+  height: 54rpx;
+  right: -45rpx;
+  top: -30rpx;
+}
+.rank-container .top-section .top-content .main .avatar-container .avatar-content .avatar.data-v-1babd782 {
+  width: 136rpx;
+  height: 136rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.rank-container .top-section .top-content .main .avatar-container .avatar-content .avatar image.data-v-1babd782 {
+  width: 100%;
+  height: 100%;
+}
+.rank-container .top-section .top-content .main .user-info.data-v-1babd782 {
+  flex: 1;
+  margin-left: 40rpx;
+}
+.rank-container .top-section .top-content .main .user-info .user-name.data-v-1babd782 {
+  font-size: 42rpx;
+  color: #ffffff;
+  text-shadow: 0px 2rpx 0px #F48400;
+}
+.rank-container .top-section .top-content .main .user-info .grade.data-v-1babd782 {
+  font-size: 28rpx;
+  color: #ffffff;
+  margin-top: 10rpx;
+  text-shadow: 0px 2rpx 0px #F48400;
+}
+.rank-container .top-section .top-content .main .score.data-v-1babd782 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rank-container .top-section .top-content .main .score .label.data-v-1babd782 {
+  font-size: 32rpx;
+  color: #ffffff;
+  text-shadow: 0px 2rpx 0px #F48400;
+}
+.rank-container .top-section .top-content .main .score .num.data-v-1babd782 {
+  font-size: 66rpx;
+  color: #ffffff;
+  text-shadow: 0px 2rpx 0px #F48400;
+}
+

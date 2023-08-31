@@ -1,0 +1,135 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/answer",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/result",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/through/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/wrong/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议及隐私政策"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#F5F5F5",
+				"backgroundColor": "#F5F5F5"
+			}
+		},
+		{
+			"path": "pages/mine/userInfo",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/setAvatar",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/resetPassword",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/pointMall",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/exchangeSuccessed",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/rank",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/message",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/classroom/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#999999",
+	    "selectedColor": "#1DA5FF",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/images/tab1.png",
+	        "selectedIconPath": "static/images/tab1_active.png",
+	        "text": "训练"
+	    }, {
+	        "pagePath": "pages/through/index",
+	        "iconPath": "static/images/tab2.png",
+	        "selectedIconPath": "static/images/tab2_active.png",
+	        "text": "闯关"
+	    },{
+	        "pagePath": "pages/wrong/index",
+	        "iconPath": "static/images/tab3.png",
+	        "selectedIconPath": "static/images/tab3_active.png",
+	        "text": "错题本"
+	    },{
+	        "pagePath": "pages/mine/index",
+	        "iconPath": "static/images/tab4.png",
+	        "selectedIconPath": "static/images/tab4_active.png",
+	        "text": "我的"
+	    }]
+	}
+}

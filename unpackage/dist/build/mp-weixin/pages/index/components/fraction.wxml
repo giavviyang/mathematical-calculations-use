@@ -1,0 +1,1 @@
+<view class="fraction-container data-v-279c7fcf"><view class="num data-v-279c7fcf">{{list[0]}}</view><view class="line data-v-279c7fcf"></view><view class="num data-v-279c7fcf">{{list[1]}}</view></view>

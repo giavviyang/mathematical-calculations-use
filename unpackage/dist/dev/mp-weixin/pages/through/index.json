@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "lock": "/component/level/lock",
+    "un-lock": "/component/level/unlock",
+    "rest-modal": "/component/restmodal"
+  }
+}

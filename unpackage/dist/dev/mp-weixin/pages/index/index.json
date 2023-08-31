@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "rest-modal": "/component/restmodal"
+  }
+}

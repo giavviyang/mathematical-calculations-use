@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "customer-top-bar": "/component/customer-top-bar/index",
+    "rest-modal": "/component/restmodal",
+    "text-roll": "/components/beyondGod-roll/text-roll",
+    "formula": "/pages/index/components/formula"
+  }
+}
